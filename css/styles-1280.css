@@ -1,0 +1,22 @@
+@media (min-width: 1280px) {
+  .wrapper {
+    width: 1200px;
+  }
+  .ex-1{background-position: center;}
+  .ex-2 {
+    height: 300px;
+  }
+  .absolut-wrapper {
+    top: -130px;
+  }
+  .subtitle-ex-5 {
+    width: 100%;
+  }
+  .ex-7 {
+    background-position: right;
+  }
+  .info-ex-8 {
+    width: 800px;
+    padding: 80px 80px;
+  }
+}

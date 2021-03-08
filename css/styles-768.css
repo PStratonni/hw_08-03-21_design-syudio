@@ -1,0 +1,102 @@
+@media (min-width: 768px) {
+  .ex-1 {
+    height: 700px;
+    background-size: 155%;
+    background-position-y: -70px;
+  }
+  .wrapper {
+    width: 700px;
+  }
+  .title {
+    font-size: 72px;
+    font-weight: 700;
+    width: 580px;
+  }
+  .ex-2 {
+    height: 595px;
+  }
+  .absolut-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .pfr {
+    width: 48%;
+  }
+  .ex-3 {
+    height: 680px;
+    background-size: 180%;
+    background-position-x: -80px;
+  }
+  .info-wrapper-ex-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .info-wrapper-ex-3 > div {
+    width: 48%;
+  }
+  .ex-4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ex-4 > div {
+    width: 50%;
+  }
+  .subtitle-ex-5 {
+    font-size: 24px;
+  }
+  .photos-ex-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .photos-ex-5 > div {
+    width: 48%;
+  }
+  .ex-6 .wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .ex-6 .wrapper > div {
+    width: 50%;
+  }
+  .ex-6 img {
+    padding: 0;
+  }
+  .ex-7 {
+    height: 730px;
+    background-image: url("../image/bg-ex-7.jpeg");
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+  }
+  .info-ex-7 {
+    width: 70%;
+  }
+  .title-ex-7 {
+    width: 100%;
+  }
+  .info-2-ex-7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .info-descr-ex-7 {
+    width: 48%;
+  }
+  .image-ex-7 {
+    display: none;
+  }
+  .ex-8 {
+    background-position: right;
+    height: 570px;
+  }
+  .ex-9 .wrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 540px;
+  }
+  .map {
+    width: 48%;
+    height: 90%;
+  }
+}
