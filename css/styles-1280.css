@@ -2,12 +2,17 @@
   .wrapper {
     width: 1200px;
   }
-  .ex-1{background-position: center;}
+  .ex-1 {
+    background-position: center;
+  }
   .ex-2 {
     height: 300px;
   }
   .absolut-wrapper {
     top: -130px;
+  }
+  .ex-3 {
+    height: 860px;
   }
   .subtitle-ex-5 {
     width: 100%;
@@ -17,6 +22,6 @@
   }
   .info-ex-8 {
     width: 800px;
-    padding: 80px 80px;
+    padding: 80px;
   }
 }

@@ -35,7 +35,7 @@
     color: rgb(231, 229, 229);
   }
   .ex-2 {
-    height: 250px;
+    height: 300px;
   }
   .absolut-wrapper {
     top: -130px;
@@ -54,8 +54,14 @@
   .ex-4 > div {
     width: 25%;
   }
+  .info-ex-4 * {
+    margin: 0;
+  }
   .info-ex-4 {
-    padding: 20px 15px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
   .subtitle-ex-5 {
     width: 750px;
@@ -77,7 +83,9 @@
   .info-ex-7 {
     width: 40%;
   }
-  .svg-ex-7{font-size: 36px;}
+  .svg-ex-7 {
+    font-size: 36px;
+  }
   .info-ex-8 {
     width: 70%;
     margin: auto;
